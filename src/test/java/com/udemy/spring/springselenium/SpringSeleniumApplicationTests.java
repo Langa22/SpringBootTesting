@@ -8,16 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class SpringSeleniumApplicationTests {
-    @Autowired
-	private User user;
-    @Autowired
-	private Faker faker;
-	@Test
-	void contextLoads() {
-		//Faker faker =new Faker();
-		this.user.printDetails();
 
-	}
 
 
 }
